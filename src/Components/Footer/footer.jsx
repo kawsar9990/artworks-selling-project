@@ -15,7 +15,7 @@ export default function Footer() {
 
 <div className="mt-5 flex justify-center">
      <div className="border-2 w-100 p-2 rounded-4xl">
-          <input type="text" name="" id=""  placeholder="Your Subscribe" spellCheck={false} className="outline-0 w-50 ml-8 placeholder:w-50"/>
+          <input type="text" name="" id=""  placeholder="Your Subscribe" spellCheck={false} className="outline-0 w-20 ml-8 lg:w-50  placeholder:w-50"/>
           <button className="bg-blue-500 text-white p-3 cursor-pointer ml-11 rounded-4xl">Subscribe</button>
      </div>
 </div>
