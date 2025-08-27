@@ -19,7 +19,7 @@ export default function Filter(){
 
 <div>
 <Tabs>
-    <TabList className="flex w-full justify-center gap-20 bg-blue-100 p-2 font-black">
+    <TabList className="flex w-full justify-center sm:gap-5 gap-15 bg-blue-100 p-2 font-black">
       <Tab className="cursor-pointer outline-0 hover:text-blue-700">All</Tab>
      <Tab className="cursor-pointer outline-0 hover:text-blue-700">Home</Tab>
       <Tab className="cursor-pointer outline-0 hover:text-blue-700">Hand</Tab>
@@ -33,7 +33,7 @@ export default function Filter(){
 {/* all img  */}
     <TabPanel className="bg-blue-50 w-full">
    
-   <div className='p-4 grid grid-flow-col gap-2 grid-rows-4 md:grid-rows-3   lg:grid-flow-col lg:gap-3 lg:grid-rows-2'>
+   <div className='p-4 grid justify-center grid-flow-col grid-rows-8 lg:grid-rows-2 md:grid-rows-4 md:justify-center md:gap-10'>
 
 <div className='w-60 shadow-lg p-5 rounded-md cursor-pointer'>
      <img src={img1} alt="ks" className='w-50'/>
@@ -86,7 +86,7 @@ export default function Filter(){
     <TabPanel className="bg-blue-50 w-full">
     <div>
 
-<div className='p-4 grid grid-flow-col gap-2 grid-rows-2 md:grid-rows-2 md:pl-20  lg:gap-3 lg:grid-rows-1'> 
+<div className='p-4 grid justify-center grid-flow-col grid-rows-8 lg:grid-rows-2 md:grid-rows-4 md:justify-center md:gap-10'> 
 
      
 <div className='w-60 shadow-lg p-5 rounded-md cursor-pointer'>
@@ -116,7 +116,7 @@ export default function Filter(){
 {/* Hand  */}
  <TabPanel className="bg-blue-50 w-full">
      <div >
-          <div className='p-4 grid grid-flow-col md:pl-25 grid-rows-1 gap-2  md:grid-rows-1   lg:gap-3  lg:grid-rows-1 lg:pl-50'>
+          <div className='p-4 grid justify-center grid-flow-col grid-rows-8 lg:grid-rows-2 md:grid-rows-4 md:justify-center md:gap-10'>
 
 
 <div  className='w-60 shadow-lg p-5 rounded-md cursor-pointer'>
@@ -138,7 +138,7 @@ export default function Filter(){
  <TabPanel className="bg-blue-50 w-full">
     <div>
 
-<div className='p-4 grid grid-flow-col gap-2 grid-rows-2 md:grid-rows-2 md:pl-20  lg:gap-3 lg:grid-rows-1'> 
+<div className='p-4 grid justify-center grid-flow-col grid-rows-8 lg:grid-rows-2 md:grid-rows-4 md:justify-center md:gap-10'> 
 
      
 <div className='w-60 shadow-lg p-5 rounded-md cursor-pointer'>
