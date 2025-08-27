@@ -1,0 +1,6 @@
+🎨✨ Artworks Selling Website / App UI – Showcase & Sell Your Creations! 🖌️
+Give your art business a modern, elegant, and user-friendly interface that highlights your artworks, attracts buyers, and drives sales. Perfect for artists, galleries, and online art marketplaces.
+🌟 Key UI Features:
+✅ Hero Section – Highlight featured artwork with CTA (Buy Now / Explore Collection) ✅ Gallery & Categories – Paintings, Sculptures, Digital Art, Prints ✅ Product Details – High-quality images, descriptions, dimensions, and price ✅ Shopping Cart & Checkout Flow – Smooth, secure, and user-friendly ✅ Artist Profiles & Stories – Build connection with buyers ✅ Customer Reviews & Ratings – Add credibility & social proof ✅ Promotions & Offers – Discounts, limited editions, and exclusive deals ✅ Fully Responsive – Mobile, tablet & desktop friendly ✅ Designed in Figma / Adobe XD
+🎯 Perfect For: Artists | Galleries | Online Art Marketplaces | Art Startups
+📩 Let’s craft a UI that showcases your art beautifully and maximizes sales!
