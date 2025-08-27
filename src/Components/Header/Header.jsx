@@ -39,15 +39,15 @@ useEffect(()=>{
 <nav className="hidden md:flex font-black gap-50">
 
 <ul className="flex gap-5">
-     <Link to="" className="hover:text-blue-500">New Features</Link>
+     <a href="#newfeatures" className="hover:text-blue-500">New Features</a>
      <Link to="" className="hover:text-blue-500 relative">All Poster <span className="bg-red-300 rounded-md absolute text-[12px]">0</span> </Link>
 
 </ul>
 
 <ul className="flex gap-5 mr-3">
-     <Link to="" className="hover:text-blue-500">Home</Link>
-     <Link to="" className="hover:text-blue-500">About</Link>
-     <Link to="" className="hover:text-blue-500">Blog</Link>
+     <a href="#" className="hover:text-blue-500">Home</a>
+     <a href="#about" className="hover:text-blue-500">About</a>
+     <a href="#blog" className="hover:text-blue-500">Blog</a>
      <Link to="cart" className="relative hover:text-blue-500">Cart <span className="bg-red-300 rounded-md absolute text-[12px]">0</span></Link>
 </ul>
 
@@ -75,11 +75,11 @@ className="md:hidden text-2xl cursor-pointer">
 >
 
 <ul className="flex flex-col gap-6 font-bold  text-lg">
-   <li>  <Link to="" className="hover:text-blue-500">New Features</Link></li>
+     <a href="#newfeatures" className="hover:text-blue-500">New Features</a>
      <Link to="" className="hover:text-blue-500 relative">All Poster <span className="bg-red-300 rounded-md absolute text-[12px]">0</span> </Link> 
      <Link to="" className="hover:text-blue-500">Home</Link>
-     <Link to="" className="hover:text-blue-500">About</Link>
-     <Link to="" className="hover:text-blue-500">Blog</Link>
+     <a href="#about" className="hover:text-blue-500">About</a>
+     <a href="#blog" className="hover:text-blue-500">Blog</a>
      <Link to="cart" className="relative hover:text-blue-500">Cart <span className="bg-red-300 rounded-md absolute text-[12px]">0</span></Link>
 </ul>
 

@@ -14,7 +14,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 export default function Filter(){
      return(
-          <div className="pt-20">
+          <div className="pt-20" id='newfeatures'>
           
 
 <div>
@@ -31,9 +31,9 @@ export default function Filter(){
 
 
 {/* all img  */}
-    <TabPanel className="bg-blue-50 w-full">
+    <TabPanel className="bg-blue-50 w-full pb-5">
    
-   <div className='p-4 grid justify-center grid-flow-col grid-rows-8 lg:grid-rows-2 md:grid-rows-4 md:justify-center md:gap-10'>
+   <div className='p-4 grid justify-center grid-flow-col grid-rows-8 lg:grid-rows-2 md:grid-rows-4 md:justify-center md:gap-3'>
 
 <div className='w-60 shadow-lg p-5 rounded-md cursor-pointer'>
      <img src={img1} alt="ks" className='w-50'/>
